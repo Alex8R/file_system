@@ -1,0 +1,13 @@
+.files_explorer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 24px;
+  min-width: 400px;
+  width: 400px;
+  height: 100vh;
+  background-color: #4dd8f0cb;
+  font-size: 1.1em;
+  text-align: left;
+}

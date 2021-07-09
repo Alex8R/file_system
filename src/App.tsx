@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
+import FilesExplorer from './components/FileExplorer/FilesExplorer';
 
-const App: React.FC<{}> = () => {
+function App() {
   return (
-    <>
-      Hello World!
-    </>
+    <div className="App">
+      <FilesExplorer/>
+    </div>
   );
-};
+}
 
 export default App;
